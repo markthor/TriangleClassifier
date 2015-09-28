@@ -13,6 +13,10 @@ public class Classifier {
 		return true;
 	}
 	
+	/**
+	 * Returns the triangle type based on the lengths of its sides.
+	 * @return One of the three triangle types.
+	 */
 	public static Type classify(double a, double b, double c) {
 		if(isEquilateral(a, b, c))
 			return Type.EQUILATERAL;

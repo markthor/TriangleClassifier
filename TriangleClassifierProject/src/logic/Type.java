@@ -11,6 +11,7 @@ public enum Type {
 		}
 		
 		// Should never happen
+		assert false;
 		return null;
 	}
 }
